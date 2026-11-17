@@ -1,0 +1,52 @@
+# Dependencies & Build Outputs
+node_modules/
+**/node_modules/
+target/
+**/target/
+dist/
+**/dist/
+dist-ssr/
+build/
+**/build/
+
+# Test files (ยกเว้นไฟล์เทสทั้งหมดตามคำสั่ง)
+loadtest/
+**/loadtest/
+src/test/
+**/src/test/
+*.jmx
+*.jtl
+*.robot
+
+# Local secrets (never commit credentials)
+application-local.properties
+**/application-local.properties
+.env
+.env.*
+!.env.example
+
+# Logs & temp files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.local
+
+# IDE & Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+.classpath
+.project
+.settings
+.factorypath
+.apt_generated
+.springBeans
+.sts4-cache

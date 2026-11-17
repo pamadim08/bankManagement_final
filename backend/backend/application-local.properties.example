@@ -1,0 +1,4 @@
+# Copy this file to "application-local.properties" (same folder, git-ignored) and fill in your values.
+# Alternatively set the environment variables DB_URL, DB_USERNAME and DB_PASSWORD.
+spring.datasource.username=root
+spring.datasource.password=change-me
